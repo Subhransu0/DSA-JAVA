@@ -2,9 +2,6 @@
 // Input a year and find whether it is a leap year or not.
 import java.util.*;
 
-/**
- * Leapyear
- */
 public class Leapyear {
 
     public static void main(String[] args) {
@@ -13,16 +10,16 @@ public class Leapyear {
         int year = in.nextInt();
         if (LEAPYEAR(year)) {
             System.out.println("Leap year");
-        }
-        else{
+        } else {
             System.out.println("Not a leap year.");
         }
+        in.close();
 
     }
 
     static boolean LEAPYEAR(int year) {
         if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {
-               return true;
+            return true;
         }
         return false;
     }
