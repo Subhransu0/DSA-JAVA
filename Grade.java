@@ -18,7 +18,7 @@ public class Grade {
 
         double SUM = MATH + English + Science + History + Computer;
         double avg = SUM / 5;
-        double GRade = GRADE(avg);
+         GRADE(avg);
         in.close();
 
     }
@@ -43,7 +43,7 @@ public class Grade {
             System.out.println("C");
         }
         if (avg <= 30) {
-            System.out.println("F");
+            System.out.println("Fail.");
         }
         return 1;
     }
