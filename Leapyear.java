@@ -1,7 +1,6 @@
 
 // Input a year and find whether it is a leap year or not.
 import java.util.*;
-
 public class Leapyear {
 
     public static void main(String[] args) {
