@@ -17,6 +17,7 @@ public class Pythogorean {
         } else {
             System.out.println("No it is not a pythagorean Triplet .");
         }
+        in.close();
 
     }
 
