@@ -7,6 +7,10 @@ public class DiditsEven {
     }
 
     static int DIGIT(int num) {
+
+        if (num < 0) {
+            return num = num * -1;
+        }
         int count = 0;
         while (num > 0) {
             count++;
