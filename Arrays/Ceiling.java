@@ -18,6 +18,7 @@ public class Ceiling {
 
         int target = in.nextInt();
         System.out.println(CELLING(arr, target));
+        in.close();
 
     }
     // return the index smallest number greater than equal to (>=) target .
