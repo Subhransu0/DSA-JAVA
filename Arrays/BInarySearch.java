@@ -1,7 +1,6 @@
 import java.util.*;
 
-
-public class BINARYSEARCH{
+public class BINARYSEARCH {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
