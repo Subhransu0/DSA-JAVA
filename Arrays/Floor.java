@@ -15,6 +15,7 @@ public class Floor {
         System.out.println("Enter target : ");
         int target = in.nextInt(); 
         System.out.println(FLOOR(arr, target));
+        in.close();
     }
     static int FLOOR(int [] arr , int target){
         int start = 0 ;
@@ -26,7 +27,7 @@ public class Floor {
                 return mid;
             }
             if (Isasc) {
-                if (arr[mid] >= target) {
+                if (arr[mid] > target) {
                     end = mid - 1;
                 }
                 else{
@@ -34,7 +35,7 @@ public class Floor {
                 }
             }
             else{
-                if (arr[mid] <= target) {
+                if (arr[mid] < target) {
                     end = mid - 1;
                 }
                 else{
