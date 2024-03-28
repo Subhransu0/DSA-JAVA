@@ -36,13 +36,13 @@ public class Ceiling {
                 return mid;
             }
             if (Isasc) {
-                if (target >= arr[mid]) {
+                if (target > arr[mid]) {
                     start = mid + 1;
                 } else {
                     end = mid - 1;
                 }
             } else {
-                if (target <= arr[mid]) {
+                if (target <  arr[mid]) {
                     start = mid + 1;
                 } else {
                     end = mid - 1;
