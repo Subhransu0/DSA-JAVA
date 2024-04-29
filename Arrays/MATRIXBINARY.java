@@ -5,11 +5,11 @@ public class MATRIXBINARY {
         int[][] arr = {
                 { 10, 20, 30, 40 },
                 { 15, 25, 35, 45 },
-                { 28, 29, 37, 49 },
-                { 33, 34, 38, 50 }
+                { 28, 29, 37, 49 }
+                
         };
 
-        int[] result = BINARY(arr, 37);
+        int[] result = BINARY(arr, 10);
         if (result[0] == -1 && result[1] == -1) {
             System.out.println("Element not found");
         } else {
