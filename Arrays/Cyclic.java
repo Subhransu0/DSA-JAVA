@@ -1,17 +1,16 @@
- class CyclicSort {
+ import java.util.*;
+ class Cyclic {
     public static void main(String[] args) {
         int arr[] = { 1,5,3,4,2};
-        try{
+        
+        
 
         
         CYCLICSORT(arr);
         for (int i : arr) {
-            System.out.println(arr[i]);
+            System.out.print( " " +i);
         }
-    }
-    catch(Exception e){
-        System.out.println(e);
-    }
+    
        
     }
 static void CYCLICSORT(int [] arr  ){
@@ -26,8 +25,8 @@ static void CYCLICSORT(int [] arr  ){
     }
 }
 static void swap(int[] arr , int a , int b){
-    int temp = a;
-     a = b;
-     b = temp;
+    int temp = arr[a];
+     arr[a] = arr[b];
+     arr[b] = temp;
 }
 }
